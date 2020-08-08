@@ -54,7 +54,7 @@ public class Lesson3 {
             default:
                 return false;
         } */
-        return (a>=48&&a<=57) ? true : false ;
+        return a>=48&&a<=57;
     }
 
     public static void toBinaries() {
