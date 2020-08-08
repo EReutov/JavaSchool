@@ -4,7 +4,7 @@ public class Lesson3 {
 
     public static void main(String[] args) throws Exception {
         byte a = 12;
-        short b = 20;
+        short b = 23;
         int c = 8;
         int d = 20000000;
         char e = '8';
