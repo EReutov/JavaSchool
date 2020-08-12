@@ -6,7 +6,7 @@ public class Lesson3 {
         byte a = 12;
         short b = 23;
         int c = 8;
-        int d = 20000004;
+        int d = 20000002;
         char e = '8';
 
 
