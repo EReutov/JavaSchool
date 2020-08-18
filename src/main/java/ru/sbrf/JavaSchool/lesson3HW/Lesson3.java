@@ -1,8 +1,23 @@
-package ru.sbrf.JavaSchool;
+package ru.sbrf.JavaSchool.lesson3HW;
 
 public class Lesson3 {
 
+    Integer a;
+
+    public Lesson3(int a) {
+        this.a = a;
+        System.out.println("1");
+    }
+    public Lesson3(Integer a) {
+        this.a = a;
+    }
+
+
     public static void main(String[] args) throws Exception {
+
+        new Lesson3((Integer)1);
+
+
         byte a = 12;
         short b = 23;
         int c = 8;
