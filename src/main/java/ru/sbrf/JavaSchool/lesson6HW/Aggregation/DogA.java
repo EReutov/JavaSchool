@@ -62,4 +62,20 @@ public class DogA implements eat, move, speak, swim, climb {
     public void swim() {
         System.out.println("Я "+ (animalA.isCanSwim() ? "умею" : "не умею")+" плавать" );
     }
+
+    public AnimalA getAnimalA() {
+        return animalA;
+    }
+
+    public void setAnimalA(AnimalA animalA) {
+        this.animalA = animalA;
+    }
+
+    public int getKnowCommand() {
+        return knowCommand;
+    }
+
+    public void setKnowCommand(int knowCommand) {
+        this.knowCommand = knowCommand;
+    }
 }
