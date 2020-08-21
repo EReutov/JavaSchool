@@ -18,10 +18,10 @@ public class Cat extends Animal{
         super.move();
         switch (catchMouseCount) {
             case 0:
-                System.out.println("Я домашний кот и не видел ни одной мыши");
+                System.out.println("Я домашнее животное и не видела ни одной мыши");
                 break;
             default:
-                System.out.println("Кол-во мышей котороя я поймал за свою жизнь: "+catchMouseCount);
+                System.out.println("Кол-во мышей которое я поймала за свою жизнь: "+catchMouseCount);
         }
     }
 
