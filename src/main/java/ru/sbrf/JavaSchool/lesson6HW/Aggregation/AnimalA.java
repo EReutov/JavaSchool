@@ -1,5 +1,7 @@
 package ru.sbrf.JavaSchool.lesson6HW.Aggregation;
 
+//test
+
 public class AnimalA {
     private String animalType;
     private String voice;
